@@ -1,0 +1,71 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title> Sana Datar </title> 
+	<link rel="stylesheet" href="home.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pridi:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=K2D&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap" rel="stylesheet">
+</head>
+<body id="myb" bgcolor="#f7de1b">
+
+<header style="margin-bottom: 50px">
+	<br>
+<p style="text-align:center"><img src="ocadlogo.png" height="100px"></p>
+    <h1 style="text-align:center; font-family:'Girassol', cursive;">Woodbridge High Academic Decathlon</h1>
+    <h2 style="text-align:center; font-family: 'Satisfy', cursive">Orange County's Four-Time Champions</h2>
+
+<div class="nav-wrapper" style="width: 100%; height: 2.5%">
+<div class="headdiv" id="myNav" style="2.5%">
+    <ul class = "nav" style="width:100%">
+      <li><a href="Home.html" style="font-family: 'Ubuntu', sans-serif;">Home</a></li>
+      <li><a href="About Decathlon.html"  style="font-family: 'Ubuntu', sans-serif;">About Decathlon</a></li>
+      <li><a href="Testimonials.html"   class="active" style="font-family: 'Ubuntu', sans-serif;">Testimonials</a></li>
+      <li><a href="Photo Gallery.html"  style="font-family: 'Ubuntu', sans-serif;">Photo Gallery</a></li>
+    </ul>
+</div></div>
+</header>
+
+<div class="main" id="divmain">
+
+<table class="center">
+<tr>
+<td style="vertical-align:top;font-size: 350%; font-family:'Bebas Neue', cursive;">Sana Datar</td>
+<td rowspan="2" style="font-family:'Catamaran', sans-serif; vertical-align:top">My name is Sana and I was on the 2014-2015 Woodbridge Academic Decathlon team in the scholastic category. Being a part of Decathlon helped me build skills that were useful in both the short and long term. I learned how to stay organized, manage my schoolwork along with other responsibilities, and work as a team with other Decathlon students. I especially benefitted from the speech, interview, and essay sections in which I won medals at both county and state competitions. Not only was this a great addition to my college applications and resume, but I am still able to use these skills in various aspects of my life today.<br>
+<p style="font-family:'Catamaran', sans-serif">I graduated with a B.S. in Health Sciences from Chapman University and I am currently pursuing my MPH (master’s in public health) at George Washington University. I built a strong foundation of skills during my time as a decathlete, and I have applied them through my work in the educational, legal, and medical fields, as well as in my schoolwork. </p>
+<p style="font-family:'Catamaran', sans-serif">Finally, Decathlon allowed me to make friendships and networking connections that I’m sure will last for years to come.</p>
+</td></tr>
+<tr>
+<td width="35%"><p><img src="sana picture.jpg" width="100%"></p><h3 style="font-family: 'K2D', sans-serif;"> Class of 2015<br>Academic Decathlon 2014-15</h3></td></tr>
+
+</table>
+<br><br>
+</div>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myNav");
+var sticky = header.offsetTop;
+var main = document.getElementById("divmain");
+var pos = main.offSetTop; 
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+
+</script>
+
+</body>
+</html>

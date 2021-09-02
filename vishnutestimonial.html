@@ -1,0 +1,70 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title> Vishnu Menon </title> 
+	<link rel="stylesheet" href="home.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pridi:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=K2D&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap" rel="stylesheet">
+</head>
+<body id="myb" bgcolor="#f7de1b">
+
+<header style="margin-bottom: 50px">
+	<br>
+<p style="text-align:center"><img src="ocadlogo.png" height="100px"></p>
+    <h1 style="text-align:center; font-family:'Girassol', cursive;">Woodbridge High Academic Decathlon</h1>
+    <h2 style="text-align:center; font-family: 'Satisfy', cursive">Orange County's Four-Time Champions</h2>
+
+<div class="nav-wrapper" style="width: 100%; height: 2.5%">
+<div class="headdiv" id="myNav" style="2.5%">
+    <ul class = "nav" style="width:100%">
+      <li><a href="Home.html" style="font-family: 'Ubuntu', sans-serif;">Home</a></li>
+      <li><a href="About Decathlon.html"  style="font-family: 'Ubuntu', sans-serif;">About Decathlon</a></li>
+      <li><a href="Testimonials.html"   class="active" style="font-family: 'Ubuntu', sans-serif;">Testimonials</a></li>
+      <li><a href="Photo Gallery.html"  style="font-family: 'Ubuntu', sans-serif;">Photo Gallery</a></li>
+    </ul>
+</div></div>
+</header>
+
+<div class="main" id="divmain">
+
+<table class="center">
+<tr>
+<td style="vertical-align:top;font-size: 350%; font-family:'Bebas Neue', cursive;">Vishnu Menon</td>
+<td rowspan="2" style="font-family:'Catamaran', sans-serif; vertical-align:top">As cliche as it sounds, Academic Decathlon has truly changed my life. As someone who can be rather lazy when it comes to school work, Decathlon has instilled in me the importance of developing a strong work ethic. Decathlon has taught me that the effort I personally put in not only affects me, but also my team, and as a result I have to work hard to not let them down. <br>
+<p style="font-family:'Catamaran', sans-serif;">The strong work ethic I developed carried over to my school life as well, as my grades have been significantly better upon joining Decathlon. However most importantly, Decathlon has created such a strong bond between my teammates and I, one that feels like a second family, and one that will last a lifetime.</p>
+</td></tr>
+<tr>
+<td><p><img src="vishnu picture.png" width="100%"></p><h3 style="font-family: 'K2D', sans-serif;"> Class of 2020<br>Academic Decathlon 2017-20</h3></td></tr>
+
+</table>
+<br><br>
+</div>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myNav");
+var sticky = header.offsetTop;
+var main = document.getElementById("divmain");
+var pos = main.offSetTop; 
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title> Woodbridge Academic Decathlon - Home </title> 
+	<link rel="stylesheet" href="home.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pridi:wght@500&display=swap" rel="stylesheet">
+	<style>
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 100%;
+  margin: 0 auto;
+  
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+</style>
+</head>
+
+<body bgcolor="#f7de1b">
+
+<header style="margin-bottom: 50px">
+	<br>
+<p style="text-align:center"><img src="ocadlogo.png" height="100px"></p>
+    <h1 style="text-align:center; font-family:'Girassol', cursive;">Woodbridge High Academic Decathlon</h1>
+    <h2 style="text-align:center; font-family: 'Satisfy', cursive">Orange County's Four-Time Champions</h2>
+
+<div class="nav-wrapper" style="width:100%; height:2.5%">
+<div class="headdiv" id="myNav" style="height:2.5%">
+    <ul class = "nav">
+      <li><a href="index.html" class="active" style="font-family: 'Ubuntu', sans-serif;">Home</a></li>
+      <li><a href="About Decathlon.html"  style="font-family: 'Ubuntu', sans-serif;">About Decathlon</a></li>
+      <li><a href="Testimonials.html"  style="font-family: 'Ubuntu', sans-serif;">Testimonials</a></li>
+      <li><a href="Photo Gallery.html"  style="font-family: 'Ubuntu', sans-serif;">Photo Gallery</a></li>
+    </ul>
+	</div></div>
+</header>
+
+<div class="main" style="font-family:'Inria Sans', sans-serif;">
+<p><h3 style="text-align: center"> Hello and Welcome to Woodbridge Academic Decathlon! <br> We are pleased that you are looking into joining our team and are eager to welcome you to our family. <br>In the meanwhile, please explore the rest of this website to learn about our program! </h3></p>
+<br>
+<p> <h1 style="text-align:center;font-family:'Pridi', serif;">THEME FOR 2020-21:- WATER: A MOST ESSENTIAL RESOURCE</h1></p>
+<br>
+<p><h3 style="text-align:center">Feel free to email us at <a href="mailto:woodbridgeacadec@gmail.com">woodbridgeacadec@gmail.com</a>!</p>
+	<p><h3 style="text-align:center">Apply to join the team at this link: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkWlaEweeamZ0_av9SkOwj7uhtRWcwei1djK68PH7ohtsFqQ/viewform">tinyurl.com/whsacadecform2021</a>!</p>
+</div>
+<br>
+<div class="container">
+	<img src="victory.jpg" height="100%" class="image">
+<div class="overlay">The Woodbridge High Team of 2019-20 receiving their trophy and check for winning the Orange County championship for the fourth year in a row.</div>
+	</div>
+</p>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myNav");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>

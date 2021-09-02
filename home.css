@@ -1,0 +1,118 @@
+header {
+  background-color: red;
+  z-index: 1;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  width: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+
+  font-weight: normal;
+}
+
+a {
+  color: blue;
+}
+
+a:hover{
+  color: red;
+}
+
+a:visited{
+  color: purple;
+}
+
+/**********************************
+NAVIGATION
+***********************************/
+.headdiv{
+	
+        text-align: center;
+}
+
+.main{
+  width: 100%;
+margin: 0 auto; 
+}
+
+.nav{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.nav li {
+ display: inline;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a.active{
+ background-color: #111;
+}
+
+li a:visited{
+color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/***Table**/
+
+table{
+width: 70%;
+margin-left: 15%;
+margin-right: 15%;
+border-spacing: 2%;
+}
+
+td{
+padding: 2%;
+}
+
+
+
